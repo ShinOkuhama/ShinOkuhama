@@ -1,0 +1,92 @@
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  background-color: #F6F5F5 ;
+  font-family: "Roboto", sans-serif;
+  .container {
+    text-align: center;
+    margin: 40px auto;
+
+    .card-white{
+      background-color: white;
+      padding: 40px;
+      margin: 30px;
+      border-radius: 15px;
+      box-shadow: 1px 5px 15px 5px #009dbd44;;
+
+      h2 {
+        font-weight: 400;
+        font-style: italic;
+        font-size: 20px;
+      }
+
+      a {
+        text-decoration: none;
+        font-weight: 700;
+        padding: 2px;
+        border-radius: 5px;
+      }
+
+    }
+  }
+}
+
+.color-purple{
+  color: #4A249D;
+}
+
+.color-grey{
+  color: rgb(59, 59, 59);
+}
+
+.color-sky-blue{
+  color: #009FBD;
+}
+
+.img-circle{
+  border-radius: 100px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  margin: 20px;
+}
+
+.social-icon{
+  height: 40px;
+  width: 40px;
+  i{
+    font-size: 30px;
+  }
+}
+
+.purple-border-hover:hover {
+  background-color: #F9E2AF;
+  border: 1px solid #4A249D;
+}
